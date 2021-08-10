@@ -1,4 +1,4 @@
-package exRevisao02
+package exRevisao01.ex02FaturaLoja
 
 class Item(
     var numeroIten: Int,
@@ -7,7 +7,7 @@ class Item(
     var precoUnit: Double
 ) {
     init {
-        if (numeroIten < 0) numeroIten = 0
+        if (quantidade < 0) quantidade = 0
 
         if (precoUnit < 0) precoUnit = 0.0
     }

@@ -1,4 +1,4 @@
-package exRevisao01
+package exRevisao01.ex01CadastroAlunos
 
 class Professores(val rdID: String, val nome:String) {
 
