@@ -22,7 +22,7 @@ class Fatura() {
     fun imprimirFatura() {
         var cont = 0
         for (cont in listaDeItens.indices) {
-            println("Ítem ${listaDeItens[cont].numeroIten} | ${listaDeItens[cont].descricao} | Qtd ${listaDeItens[cont].quantidade} | Preço unit. R$ ${listaDeItens[cont].precoUnit} | Valor R$ ${(listaDeItens[cont].quantidade) * (listaDeItens[cont].precoUnit)} ")
+            println("Ítem ${listaDeItens[cont].numeroIten} | ${listaDeItens[cont].descricao} | Qtd ${listaDeItens[cont].quantidade} | Preço unit. R$ ${listaDeItens[cont].precoUnit} | Valor R$ ${totalDaFatura()} ")
         }
         println("")
         println("Valor Total da Nota: R$ ${totalDaFatura()}")
