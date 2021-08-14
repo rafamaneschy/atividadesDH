@@ -1,4 +1,4 @@
-package exfundamentos
+package estruturaBasica
 
 fun maiorValor(numA: Int, numB: Int, numC: Int): Int {
     return if (numA > numB && numA > numC) numA

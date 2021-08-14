@@ -1,4 +1,4 @@
-package exfundamentos
+package estruturaBasica
 
 fun textosIguais(textoA:String, textoB:String): Boolean {
     return textoA != textoB

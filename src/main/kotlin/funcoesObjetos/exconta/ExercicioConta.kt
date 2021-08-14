@@ -1,4 +1,4 @@
-package exfuncao.exconta
+package funcoesObjetos.exconta
 
 fun main() {
     val clienteA: Cliente = Cliente("Manoel","Borges")
