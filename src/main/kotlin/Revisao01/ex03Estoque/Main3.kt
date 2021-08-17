@@ -1,4 +1,4 @@
-package exRevisao01.ex03Estoque
+package Revisao01.ex03Estoque
 
 fun main() {
 

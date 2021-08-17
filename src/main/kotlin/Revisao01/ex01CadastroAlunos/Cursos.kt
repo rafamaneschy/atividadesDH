@@ -1,4 +1,4 @@
-package exRevisao01.ex01CadastroAlunos
+package Revisao01.ex01CadastroAlunos
 
 import java.util.ArrayList
 

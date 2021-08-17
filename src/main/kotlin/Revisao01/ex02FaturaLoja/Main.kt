@@ -1,4 +1,4 @@
-package exRevisao01.ex02FaturaLoja
+package Revisao01.ex02FaturaLoja
 
 fun main() {
     var item1 = Item(1, "teclado", 1, 300.0)

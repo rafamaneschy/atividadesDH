@@ -1,4 +1,4 @@
-package exRevisao01.ex03Estoque
+package Revisao01.ex03Estoque
 
 class Estoque(var nome: String, var qtdAtual: Int, var qtdMinima: Int) {
 

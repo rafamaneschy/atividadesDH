@@ -1,4 +1,4 @@
-package exRevisao01.ex02FaturaLoja
+package Revisao01.ex02FaturaLoja
 
 import java.util.ArrayList
 
